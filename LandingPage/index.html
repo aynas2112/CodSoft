@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="brandLogo.svg" alt="Logo" class="logo">
+        <h1>Landing Page</h1>    
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h1>Catchy Headline</h1>
+        <p>Brief description or tagline</p>
+        <img src="hero section.jpg" alt="heroImg" id="heroImg">
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+    <section id="features">
+        <h2>
+            Features/Benefits
+        </h2>
+        <div class="feature">
+            <img src="featureIcon.svg" alt="Feature1 icon">
+            <h3>Feature 1</h3>
+            <p>Description of feature 1</p>
+        </div>
+        <div class="feature">
+            <img src="featureIcon.svg" alt="Feature1 icon">
+            <h3>Feature 1</h3>
+            <p>Description of feature 1</p>
+        </div>
+        <div class="feature">
+            <img src="featureIcon.svg" alt="Feature1 icon">
+            <h3>Feature 1</h3>
+            <p>Description of feature 1</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Brief description of the company and what it does
+        </p>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonials">
+            <img src="customerIcon.svg" alt="Customer 1">
+            <bloockquote>
+                "Quote from customer 1"
+            </bloockquote>
+            <cite>Customer 1</cite>
+        </div>
+        <div class="testimonials">
+            <img src="customerIcon.svg" alt="Customer 1">
+            <bloockquote>
+                "Quote from customer 1"
+            </bloockquote>
+            <cite>Customer 1</cite>
+        </div>
+        <div class="testimonials">
+            <img src="customerIcon.svg" alt="Customer 1">
+            <bloockquote>
+                "Quote from customer 1"
+            </bloockquote>
+            <cite>Customer 1</cite>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>      
+    <footer>
+        <p>&copy; 2024 Your Company Name All Rights Reserved</p>
+    </footer>
+</body>
+</html>
