@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5; /* Set background color */
+    display: flex;
+    /* justify-content: center; Align everything to center horizontally */
+    /* align-items: center; Align everything to center vertically */
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.container {
+    text-align: center; /* Align text center */
+}
+
+h1 {
+    margin-bottom: 1.5rem; /* Add space between heading and calculator */
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.button {
+    width: 4.125rem;
+    height: 4.125rem; /* Set height equal to width */
+    padding: 0; /* Remove padding */
+    margin: 0 0.5%;
+    border: none; /* Remove border */
+    border-radius: 50%; /* Make button a perfect circle */
+    cursor: pointer;
+    color: white;
+    background-color: #4CAF50; /* Set background color */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Add box shadow for 3D effect */
+}
+
+.row {
+    margin: 8% 0;
+}
+
+.row input {
+    width: 18.1875rem;
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0.625rem 0;
+    border: none; /* Remove border */
+    border-radius: 0.3125rem;
+    text-align: right;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)); /* Add gradient background */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Add box shadow for 3D effect */
+}
